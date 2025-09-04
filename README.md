@@ -4,6 +4,7 @@ This REST API is based on the specs provided in the backend developer roadmap: h
 
 To run and test the API:
 1. Install node 20+ and have docker running
-2. clone the git repo
-3. run `docker-compose up`
-4. run the command `npm run dev`
+2. Create a .envrc file and follow the suggested env variables from the `.envrc.example` file provided.
+3. Clone the git repo
+4. Run `docker-compose up` to get the postgres and redis containers up
+5. Run the command `npm run dev`

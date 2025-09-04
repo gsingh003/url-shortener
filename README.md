@@ -9,4 +9,4 @@ To run and test the API:
 4. Run `docker-compose up` to get the postgres and redis containers up
 5. Run the command `npm run dev`
 
-Note that because I use .envrc file here and not a .env file, you may need to export them however you see fit. Personally, I used the `direnv` tool to make it easy.
+Note that because I use .envrc file here and not a .env file, you may need to export them however you see fit. Personally, I used the `direnv` shell extension to make it easy for me.
